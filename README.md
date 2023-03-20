@@ -21,7 +21,7 @@ npm install @react-navigation/native-stack
 npx expo install firebase
 ```
 
-For more information on the libraries, check the documentation: [Image Picker](https://docs.expo.dev/versions/latest/sdk/imagepicker/), [Clipboard](https://docs.expo.dev/versions/latest/sdk/clipboard/).
+For more information on the libraries, check the documentation: [Image Picker](https://docs.expo.dev/versions/latest/sdk/imagepicker/), [Clipboard](https://docs.expo.dev/versions/latest/sdk/clipboard/), [Calendars](https://github.com/wix/react-native-calendars).
 
 For information on installing expo, see the following [documentation](https://docs.expo.dev/get-started/installation/).
 
