@@ -34,8 +34,8 @@ A youtube [video](https://youtu.be/ql4J6SpLXZA) was used as a tutorial to create
 A youtube [video](https://youtu.be/RdaQIkE47Og) was used as a tutorial to create the calendar
 
 ## Usage
-
-Add Screenshots of various screens here to display usage. 
+![IMG-8975](https://user-images.githubusercontent.com/76827873/226478392-8d77ef78-ba04-4bd8-9e42-a1fbc3175a17.PNG)
+Login Screen
 
 ## Contributing
 
