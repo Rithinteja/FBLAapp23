@@ -1,0 +1,30 @@
+{
+  "expo": {
+    "name": "GreenlevelScheduler",
+    "slug": "GreenlevelScheduler",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/gator.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/gator.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/gator.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "favicon": "./assets/gator.png"
+    }
+  }
+}
