@@ -30,6 +30,8 @@ Add requirements if dependencies have to be manually installed or a specific ver
 Code from the React Native Share [documentation](https://reactnative.dev/docs/share) was used as a template. 
 
 A youtube [video](https://reactnative.dev/docs/share) was used as a tutorial to create the image picker in the application.
+A youtube [video](https://youtu.be/ql4J6SpLXZA) was used as a tutorial to create the login
+A youtube [video](https://youtu.be/RdaQIkE47Og) was used as a tutorial to create the calendar
 
 ## Usage
 
