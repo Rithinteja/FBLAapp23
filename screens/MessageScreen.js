@@ -1,7 +1,7 @@
 //run npm install expo-image-picker
 //run npm install expo-clipboard
 import React, { useState, useEffect } from "react";
-import { Text, View, Button, Image, Alert, Share,StyleSheet,TouchableOpacity, Platform} from "react-native";
+import { Text, View, Button, Image, Alert, Share, StyleSheet, TouchableOpacity, Platform, LogBox } from "react-native";
 import * as ImagePicker from "expo-image-picker";
 import * as Clipboard from 'expo-clipboard';
 import { useNavigation } from '@react-navigation/core'
@@ -34,7 +34,7 @@ const ShareExample = () => {
     try {
       const result = await Share.share({
         message:
-          'Notify rithinteja.aechan@gmail.com or anujpannala@gmail.com about bugs',
+          'Notify rithinteja.aechan@gmail.com or anujpannala@gmail.com about bugs.',
       });
       if (result.action === Share.sharedAction) {
         if (result.activityType) {
@@ -55,7 +55,7 @@ const ShareExample = () => {
     try {
       const result = await Share.share({
         message:
-          'Notify parent and student about sudden drop in grades to below a C',
+          'Notify parents and students about sudden drop in grades to below a C.',
       });
       if (result.action === Share.sharedAction) {
         if (result.activityType) {
@@ -129,24 +129,43 @@ const ShareExample = () => {
   };
 
   return (
-    <View style={{flex:1, justifyContent:"center", backgroundColor: "white"}}>
-      <Button onPress={onShare} title="Absence Notification" color="#36578C"/>
-      <Button onPress={gradeReport} title="Report Grade Drop" color="#36578C"/>
-      <Button onPress={pickImage} title="Pick Image to Share" color="#36578C"/>
-      <Button onPress={onImageShare} title="Share Image" color="#36578C"/>
-      <Button onPress={bugReport} title="Report Bug" color="#36578C"/>
-      <TouchableOpacity
-                onPress={() => {navigation.replace("Home")}}
-                style={[styles.button, styles.buttonOutline]}
-            >
-                <Text style={styles.buttonOutlineText}>Homescreen</Text>
-            </TouchableOpacity>
+    <View style={{flex: 1, justifyContent:"center", backgroundColor: "white"}}>
+      <View style={{flex: 1/8, alignItems: 'center' }}>
+        <Text style={styles.titleText}> Notify School about Absence </Text>
+        <Button onPress={onShare} title="Notify" color="#36578C"/>
+      </View>
+      <View style={{flex: 1/8, alignItems: 'center'}}>
+        <Text style={styles.titleText}> Reporting Falling Grade </Text>
+        <Button onPress={gradeReport} title="Report" color="#36578C"/>
+      </View>
+      <View style={{flex: 1/8, alignItems: 'center'}}> 
+        <Text style={styles.titleText}> Photo Sharing </Text>
+        <Button onPress={pickImage} title="Pick Image to Share" color="#36578C"/>
+        <Button onPress={onImageShare} title="Share Image" color="#36578C"/>
+      </View>
+      <View style={{flex: 1/16, alignItems: 'center'}}></View>
+      <View style={{flex: 1/8, alignItems: 'center'}}>
+        <Text style={styles.titleText}> Bug Reporting </Text>
+        <Button onPress={bugReport} title="Report" color="#36578C"/>
+      </View>
+      <View style={{flex: 1/8, alignItems: 'center'}}>
+        <TouchableOpacity
+          onPress={() => {navigation.replace("Home")}}
+          style={[styles.button, styles.buttonOutline]}
+        >
+          <Text style={styles.buttonOutlineText}>Homescreen</Text>
+        </TouchableOpacity>
+      </View>
     </View>
     
   );
 };
 
+LogBox.ignoreLogs(['Warning: ...']); // Ignore log notification by message
+LogBox.ignoreAllLogs(); //Ignore all log notifications
+
 export default ShareExample;
+
 const styles = StyleSheet.create({
   container: {
     flex: 1,
@@ -191,6 +210,11 @@ const styles = StyleSheet.create({
     color: '#4EA701',
     fontWeight: '700',
     fontSize: 16,
+  },
+  titleText: {
+    color: '#4EA701',
+    fontSize: 20,
+    fontWeight: 'bold',
   },
 
 })
