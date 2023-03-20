@@ -13,6 +13,12 @@ Use the package manager [npm](https://docs.npmjs.com/) to install the necessary 
 ```bash
 npm install expo-image-picker
 npm install expo-clipboard
+npm install react-native-calendars
+npm install react-native-paper
+npm install @react-navigation/native
+npx expo install react-native-screens react-native-safe-area-context
+npm install @react-navigation/native-stack
+npx expo install firebase
 ```
 
 For more information on the libraries, check the documentation: [Image Picker](https://docs.expo.dev/versions/latest/sdk/imagepicker/), [Clipboard](https://docs.expo.dev/versions/latest/sdk/clipboard/).
