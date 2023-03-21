@@ -49,6 +49,10 @@ For errors or if help is needed, use the support and bug reporting feature built
 
 Show image of bug reporting feature here. 
 
+## Works Cited
+
+Here is our [Works Cited](https://docs.google.com/document/d/1pt5DowFXnV8VdsI9MtJbEBEwvj4-4bOkp14ovU6jMjM/edit?usp=sharing).
+
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
