@@ -2,7 +2,7 @@
 
 Gator Scheduler is a react-native expo application for Green Level High School that helps keep parents and the community up to date. 
 
-Some features include: upcoming events, a school calendar, an activities schedule, photo sharing for teachers and students, absence notification, and another feature recommended by the school administration(change this when said feature is added).
+Some features include: upcoming events, a school calendar, an activities schedule, photo sharing for teachers and students, absence notification, and a feature to notify parents when a student's grade drops below a certain point. 
 
 For more information, check the [documentation](https://www.fbla-pbl.org/media/2022/08/FBLA-High-School-CE-Guidelines_8.29.22.pdf). 
 
@@ -21,11 +21,9 @@ npm install @react-navigation/native-stack
 npx expo install firebase
 ```
 
-For more information on the libraries, check the documentation: [Image Picker](https://docs.expo.dev/versions/latest/sdk/imagepicker/), [Clipboard](https://docs.expo.dev/versions/latest/sdk/clipboard/), [Calendars](https://github.com/wix/react-native-calendars), [Firebase](https://rnfirebase.io/).
+For more information on the libraries, check the documentation: [Image Picker](https://docs.expo.dev/versions/latest/sdk/imagepicker/), [Clipboard](https://docs.expo.dev/versions/latest/sdk/clipboard/), [Calendars](https://github.com/wix/react-native-calendars), [Firebase](https://rnfirebase.io/), [Paper](https://github.com/callstack/react-native-paper), [Navigation](https://github.com/react-navigation/react-navigation), [Screens](https://github.com/software-mansion/react-native-screens), and [Safe Area](https://github.com/th3rdwave/react-native-safe-area-context).
 
 For information on installing expo, see the following [documentation](https://docs.expo.dev/get-started/installation/).
-
-Add requirements if dependencies have to be manually installed or a specific version of expo or react-native is required. 
 
 Code from the React Native Share [documentation](https://reactnative.dev/docs/share) was used as a template. 
 
@@ -34,8 +32,7 @@ A youtube [video](https://youtu.be/ql4J6SpLXZA) was used as a tutorial to create
 A youtube [video](https://youtu.be/RdaQIkE47Og) was used as a tutorial to create the calendar
 
 ## Usage
-![IMG-8975](https://user-images.githubusercontent.com/76827873/226478392-8d77ef78-ba04-4bd8-9e42-a1fbc3175a17.PNG)
-Login Screen
+Include pictures of the screens here.
 
 ## Contributing
 
