@@ -31,6 +31,8 @@ A youtube [video](https://www.youtube.com/watch?v=v9J7c1uyLow) was used as a tut
 A youtube [video](https://youtu.be/ql4J6SpLXZA) was used as a tutorial to create the login.
 A youtube [video](https://youtu.be/RdaQIkE47Og) was used as a tutorial to create the calendar.
 
+Images from the following websites were used in our application and are either covered under the fair use for educational purposes guidelines or non-copyrighted: [Gator](https://www.wcpss.net/greenlevelhs) and [Calendar](https://www.citypng.com/search?q=calendar+black+icon+clear+background).
+
 ## Usage
 Include pictures of the screens here.
 
