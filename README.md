@@ -27,9 +27,9 @@ For information on installing expo, see the following [documentation](https://do
 
 Code from the React Native Share [documentation](https://reactnative.dev/docs/share) was used as a template. 
 
-A youtube [video](https://reactnative.dev/docs/share) was used as a tutorial to create the image picker in the application.
-A youtube [video](https://youtu.be/ql4J6SpLXZA) was used as a tutorial to create the login
-A youtube [video](https://youtu.be/RdaQIkE47Og) was used as a tutorial to create the calendar
+A youtube [video](https://www.youtube.com/watch?v=v9J7c1uyLow) was used as a tutorial to create the image picker in the application.
+A youtube [video](https://youtu.be/ql4J6SpLXZA) was used as a tutorial to create the login.
+A youtube [video](https://youtu.be/RdaQIkE47Og) was used as a tutorial to create the calendar.
 
 ## Usage
 Include pictures of the screens here.
