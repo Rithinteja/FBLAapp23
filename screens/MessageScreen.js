@@ -1,11 +1,13 @@
 //run npm install expo-image-picker
 //run npm install expo-clipboard
 import React, { useState, useEffect } from "react";
-import { Text, View, Button, Image, Alert, Share, StyleSheet, TouchableOpacity, Platform, LogBox } from "react-native";
+//imports components from react-native
+import { Text, View, Button, Image, Alert, Share, StyleSheet, TouchableOpacity, Platform, LogBox, Linking } from "react-native";
 import * as ImagePicker from "expo-image-picker";
 import * as Clipboard from 'expo-clipboard';
 import { useNavigation } from '@react-navigation/core'
 
+//creates share function
 const ShareExample = () => {
   const navigation = useNavigation()
   //Absence Notification
@@ -35,6 +37,27 @@ const ShareExample = () => {
       const result = await Share.share({
         message:
           'Notify rithinteja.aechan@gmail.com or anujpannala@gmail.com about bugs.',
+      });
+      if (result.action === Share.sharedAction) {
+        if (result.activityType) {
+          // shared with activity type of result.activityType
+        } else {
+          // shared
+        }
+      } else if (result.action === Share.dismissedAction) {
+        // dismissed
+      }
+    } catch (error) {
+      Alert.alert(error.message);
+    }
+  };
+
+  //Social Media Use
+  const socialMedia = async () => {
+    try {
+      const result = await Share.share({
+        message:
+          'Press on social media apps installed on your device to use social media!',
       });
       if (result.action === Share.sharedAction) {
         if (result.activityType) {
@@ -83,6 +106,7 @@ const ShareExample = () => {
     })();
   }, []);
 
+  //allows user to pick image
   const pickImage = async () => {
     let result = await ImagePicker.launchImageLibraryAsync({
       mediaTypes: ImagePicker.MediaTypeOptions.Images,
@@ -94,6 +118,7 @@ const ShareExample = () => {
 
     console.log(result);
 
+    //copies image to clipboard
     await Clipboard.setImageAsync(result.base64);
 
     if (!result.cancelled) {
@@ -128,8 +153,9 @@ const ShareExample = () => {
     }
   };
 
+  //displays screen with buttons that call functions, instruction text, and links to school website and works cited
   return (
-    <View style={{flex: 1, justifyContent:"center", backgroundColor: "white"}}>
+    <View style={{flex: 1, justifyContent:"center", backgroundColor: "white", marginTop: 50 }}>
       <View style={{flex: 1/8, alignItems: 'center' }}>
         <Text style={styles.titleText}> Notify School about Absence </Text>
         <Button onPress={onShare} title="Notify" color="#36578C"/>
@@ -145,16 +171,32 @@ const ShareExample = () => {
       </View>
       <View style={{flex: 1/16, alignItems: 'center'}}></View>
       <View style={{flex: 1/8, alignItems: 'center'}}>
+        <Text style={styles.titleText}> Connect with Social Media </Text>
+        <Button onPress={socialMedia} title="Use" color="#36578C"/>
+      </View>
+      <View style={{flex: 1/8, alignItems: 'center'}}>
         <Text style={styles.titleText}> Bug Reporting </Text>
         <Button onPress={bugReport} title="Report" color="#36578C"/>
       </View>
-      <View style={{flex: 1/8, alignItems: 'center'}}>
-        <TouchableOpacity
-          onPress={() => {navigation.replace("Home")}}
-          style={[styles.button, styles.buttonOutline]}
-        >
-          <Text style={styles.buttonOutlineText}>Homescreen</Text>
-        </TouchableOpacity>
+      <View style={{flex: 1/12, alignItems: 'center'}}>
+      <TouchableOpacity
+        onPress={() => {navigation.replace("Home")}}
+        style={[styles.button, styles.buttonOutline]}
+      >
+        <Text style={styles.buttonOutlineText}>Homescreen</Text>
+      </TouchableOpacity>
+      </View>
+      <View style={{flex: 1/8, justifyContent: 'center', flexDirection: 'row', marginTop: 25}}>
+        <Button
+          title="Works Cited"
+          onPress={() => Linking.openURL('https://docs.google.com/document/d/1pt5DowFXnV8VdsI9MtJbEBEwvj4-4bOkp14ovU6jMjM/edit?usp=sharing')}
+          style={styles.buttonText}
+        />
+        <Button
+          title="School Website"
+          onPress={() => Linking.openURL('https://www.wcpss.net/greenlevelhs')}
+          style={styles.buttonText}
+        />
       </View>
     </View>
     
@@ -166,6 +208,7 @@ LogBox.ignoreAllLogs(); //Ignore all log notifications
 
 export default ShareExample;
 
+//creates stylesheet to format screen
 const styles = StyleSheet.create({
   container: {
     flex: 1,
