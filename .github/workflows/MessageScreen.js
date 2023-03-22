@@ -153,7 +153,7 @@ const ShareExample = () => {
     }
   };
 
-  //displays screen with buttons that call functions, instruction text, and links to school website and works cited
+  //displays screen with buttons that call functions, instruction text, and links to the school website, works cited, and terms of use
   return (
     <View style={{flex: 1, justifyContent:"center", backgroundColor: "white", marginTop: 50 }}>
       <View style={{flex: 1/8, alignItems: 'center' }}>
@@ -195,6 +195,11 @@ const ShareExample = () => {
         <Button
           title="School Website"
           onPress={() => Linking.openURL('https://www.wcpss.net/greenlevelhs')}
+          style={styles.buttonText}
+        />
+        <Button
+          title="Terms of Use"
+          onPress={() => Linking.openURL('https://github.com/Rithinteja/GreenLevelScheduler/blob/main/LICENSE.md')}
           style={styles.buttonText}
         />
       </View>
