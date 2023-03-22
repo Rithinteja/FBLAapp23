@@ -56,7 +56,7 @@ There are multiple editable cards for each day that the user can add events to. 
 <img src="https://user-images.githubusercontent.com/97137002/226774830-395189e3-2505-48a3-882e-85e629d54ca4.png" width="150" height="280">
 Alternatively, the user can press the tab above the schedule to make the calendar drop down, allowing them to find specific dates on the calendar. 
 
-<img src="https://user-images.githubusercontent.com/97137002/226776132-e91a4733-1760-4192-929e-19774190a1b1.png" width="150" height="280">
+<img src="https://user-images.githubusercontent.com/97137002/227054767-1ef9f890-eb5b-4566-90b3-030f0018d707.png" width="150" height="280">
 This is the last screen of our application, the messaging screen. It allows the user to notify the school about student absences, report falling grades to parents, share photos to teachers and students, use multiple social media applications installed on the users device, report bugs to us should the user discover any, and navigate back to the home screen with the homescreen button. It also allows the user to see our works cited with the link at the bottom of the screen along with the school website linked as well to allow parents to access it quickly. 
 
 <img src="https://user-images.githubusercontent.com/97137002/226776845-8ae1730c-47b2-4c05-b925-c226f4506672.png" width="150" height="280">
