@@ -34,7 +34,10 @@ A youtube [video](https://youtu.be/RdaQIkE47Og) was used as a tutorial to create
 Images from the following websites were used in our application and are either covered under the fair use for educational purposes guidelines or non-copyrighted: [Gator](https://www.wcpss.net/greenlevelhs) and [Calendar](https://www.citypng.com/search?q=calendar+black+icon+clear+background).
 
 ## Usage
-Include pictures of the screens here.
+![IMG_3469](https://user-images.githubusercontent.com/97137002/226774350-73796ca0-421a-4902-ac4b-33b036a8d6e5.png) This is the login screen of our app. Users can login with their existing account or register a new account. 
+
+![IMG_3471](https://user-images.githubusercontent.com/97137002/226774477-8c365ac8-053e-4a3a-847e-12af481515f1.png) This is home screen of our application, which contains a calendar with an activities schedule in it as well as an upcoming events list. ![IMG_3470](https://user-images.githubusercontent.com/97137002/226774618-55aecab8-b01c-44c1-9e5b-55eebb623f0c.png) There are multiple editable cards for each day that the user can add events to. The user can scroll up and down, or press the days on the bar at the top of the screen to see the entire schedule. ![IMG_3472](https://user-images.githubusercontent.com/97137002/226774830-395189e3-2505-48a3-882e-85e629d54ca4.png) Alternatively, the user can press the tab above the schedule to make the calendar drop down, allowing them to find specific dates on the calendar. 
+
 
 ## Contributing
 
