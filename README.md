@@ -54,15 +54,19 @@ This is home screen of our application, which contains a calendar with an activi
 There are multiple editable cards for each day that the user can add events to. The user can scroll up and down, or press the days on the bar at the top of the screen to see the entire schedule. 
 
 <img src="https://user-images.githubusercontent.com/97137002/226774830-395189e3-2505-48a3-882e-85e629d54ca4.png" width="150" height="280">
+
 Alternatively, the user can press the tab above the schedule to make the calendar drop down, allowing them to find specific dates on the calendar. 
 
-<img src="https://user-images.githubusercontent.com/97137002/227059665-3c311961-d30a-4df3-8f56-77396083f686.png" width="150" height="280">
+<img src="https://github.com/Rithinteja/GreenLevelScheduler/assets/97137002/75033a57-beb1-43db-8d70-2574cb9aafe3" width="150" height="280">
+
 This is the last screen of our application, the messaging screen. It allows the user to notify the school about student absences, report falling grades to parents, share photos to teachers and students, use multiple social media applications installed on the users device, report bugs to us should the user discover any, and navigate back to the home screen with the homescreen button. It also allows the user to see our works cited with the link at the bottom of the screen along with the school website linked as well to allow parents to access it quickly. 
 
-<img src="https://user-images.githubusercontent.com/97137002/226776845-8ae1730c-47b2-4c05-b925-c226f4506672.png" width="150" height="280">
+<img src="https://github.com/Rithinteja/GreenLevelScheduler/assets/97137002/77a42569-9d39-4ba1-960f-24eea8595100" width="150" height="280">
+
 This shows an example of what is pulled up when the notify, report, share image, or use buttons are pressed. It shows the base text which serves as instructions for each messaging option and is editable, shows people that are often messaged as suggestions on who to message, apps installed on the device such as messaging apps, email apps, and social media applications that can be used for messaging, and other options at the bottom dependent on the device. 
 
 <img src="https://user-images.githubusercontent.com/97137002/226777384-4f3b0c33-206e-44bf-931e-1ed4d941cc48.png" width="150" height="280">
+
 This shows what happens when the pick image button is pressed. It pulls up a gallery of all photos on the device and allows the user to select one, and then gives the user the ability to crop the photo and move it in and out of frame. Then the user can choose the image and it is copied to their clipboard, allowing them to paste it in the share image option following the instructions. 
 
 ## Contributing
@@ -76,7 +80,7 @@ Project is not open to contributions.
 
 For errors or if help is needed, use the support and bug reporting feature built-in to the application. 
 
- <img src="https://user-images.githubusercontent.com/97137002/226777700-377e2238-7236-46f1-a6d2-a0865bdae7e2.png" width="150" height="280">
+ <img src="https://github.com/Rithinteja/GreenLevelScheduler/assets/97137002/5e3bd433-c6e2-45e4-93df-5e8048d1433b" width="150" height="280">
 
 ## Works Cited
 
