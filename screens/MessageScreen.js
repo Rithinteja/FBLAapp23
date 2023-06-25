@@ -159,20 +159,32 @@ const ShareExample = () => {
       <View style={{flex: 1/8, alignItems: 'center' }}>
         <Text style={styles.titleText}> Notify School about Absence </Text>
         <Button onPress={onShare} title="Notify" color="#36578C"/>
+        <View style={{flexDirection: 'row', alignItems: 'center', paddingHorizontal: 30}}>
+          <View style={{flex: 1, height: 2, backgroundColor: '#4EA701'}} />
+        </View>
       </View>
       <View style={{flex: 1/8, alignItems: 'center'}}>
         <Text style={styles.titleText}> Reporting Falling Grade </Text>
         <Button onPress={gradeReport} title="Report" color="#36578C"/>
+        <View style={{flexDirection: 'row', alignItems: 'center', paddingHorizontal: 30}}>
+          <View style={{flex: 1, height: 2, backgroundColor: '#4EA701'}} />
+        </View>
       </View>
       <View style={{flex: 1/8, alignItems: 'center'}}> 
         <Text style={styles.titleText}> Photo Sharing </Text>
         <Button onPress={pickImage} title="Pick Image to Share" color="#36578C"/>
         <Button onPress={onImageShare} title="Share Image" color="#36578C"/>
+        <View style={{flexDirection: 'row', alignItems: 'center', paddingHorizontal: 30}}>
+          <View style={{flex: 1, height: 2, backgroundColor: '#4EA701'}} />
+        </View>
       </View>
       <View style={{flex: 1/16, alignItems: 'center'}}></View>
       <View style={{flex: 1/8, alignItems: 'center'}}>
         <Text style={styles.titleText}> Connect with Social Media </Text>
         <Button onPress={socialMedia} title="Use" color="#36578C"/>
+        <View style={{flexDirection: 'row', alignItems: 'center', paddingHorizontal: 30}}>
+          <View style={{flex: 1, height: 2, backgroundColor: '#4EA701'}} />
+        </View>
       </View>
       <View style={{flex: 1/8, alignItems: 'center'}}>
         <Text style={styles.titleText}> Bug Reporting </Text>
