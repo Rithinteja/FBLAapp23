@@ -59,7 +59,7 @@ Alternatively, the user can press the tab above the schedule to make the calenda
 
 <img src="https://github.com/Rithinteja/GreenLevelScheduler/assets/97137002/75033a57-beb1-43db-8d70-2574cb9aafe3" width="150" height="280">
 
-This is the last screen of our application, the messaging screen. It allows the user to notify the school about student absences, report falling grades to parents, share photos to teachers and students, use multiple social media applications installed on the users device, report bugs to us should the user discover any, and navigate back to the home screen with the homescreen button. It also allows the user to see our works cited with the link at the bottom of the screen along with the school website linked as well to allow parents to access it quickly. 
+This is the last screen of our application, the messaging screen. It allows the user to notify the school about student absences, report falling grades to parents, share photos to teachers and students, use multiple social media applications installed on the users device, report bugs to us should the user discover any, and navigate back to the home screen with the homescreen button. It also allows the user to see our works cited with the link at the bottom of the screen along with the school website linked as well to allow parents to access it quickly.
 
 <img src="https://github.com/Rithinteja/GreenLevelScheduler/assets/97137002/77a42569-9d39-4ba1-960f-24eea8595100" width="150" height="280">
 
